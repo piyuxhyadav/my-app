@@ -36,7 +36,7 @@ const IndexPage = () => {
 	return (
 		<div className="container mx-auto text-center">
 			<h1 className="text-3xl font-bold mt-4">Random Words</h1>
-			<div className="flex flex-row justify-center mt-4 space-x-4">
+			<div className="flex flex-row flex-wrap justify-center mt-4 space-x-4">
 				<button className="button" onClick={handleFetchFromServer}>
 					Fetch from Server
 				</button>
